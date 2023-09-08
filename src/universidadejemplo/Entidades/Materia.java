@@ -10,10 +10,12 @@ package universidadejemplo.Entidades;
  * @author juand
  */
 public class Materia {
-    int idMateria;
-    String nombre;
-    int anioMateria;
-    boolean activo;
+    private int idMateria;
+    private String nombre;
+    private int anioMateria;
+    private boolean activo;
+    
+    
 
     public int getIdMateria() {
         return idMateria;

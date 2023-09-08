@@ -10,10 +10,10 @@ package universidadejemplo.Entidades;
  * @author juand
  */
 public class Inscripcion {
-    int idInscripcion;
-    Alumno alumno;
-    Materia materia;
-    double nota;
+    private int idInscripcion;
+    private Alumno alumno;
+    private Materia materia;
+    private double nota;
 
     public int getIdInscripcion() {
         return idInscripcion;
@@ -68,6 +68,6 @@ public class Inscripcion {
     }
     
     
-            
+          
     
 }
