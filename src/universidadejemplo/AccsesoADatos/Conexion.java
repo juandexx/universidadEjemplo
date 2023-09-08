@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package universidadejemplo.Entidades;
+package universidadejemplo.AccsesoADatos;
 
 /**
  *
  * @author juand
  */
-public class NewClass {
+public class Conexion {
     
 }
