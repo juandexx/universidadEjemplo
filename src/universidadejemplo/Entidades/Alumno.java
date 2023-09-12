@@ -1,23 +1,37 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package universidadejemplo.Entidades;
 
 import java.time.LocalDate;
 
-/**
- *
- * @author juand
- */
+
 public class Alumno {
-     private int idAlumno;
-     private int dni;
-     private String apellido;
+
+    private int idAlumno;
+    private int dni;
+    private String apellido;
     private String nombre;
     private LocalDate fechaNac;
-    private boolean activo;
+    private boolean estado;
+
+    public Alumno() {
+    }
+
+    public Alumno(int idAlumno, String apellido, String nombre, int dni, LocalDate fechaNac, boolean estado) {
+        this.idAlumno = idAlumno;
+        this.apellido = apellido;
+        this.nombre = nombre;
+        this.dni = dni;
+        this.fechaNac = fechaNac;
+        this.estado = estado;
+    }
+
+    public Alumno(String apellido, String nombre, int dni, LocalDate fechaNac, boolean estado) {
+        this.apellido = apellido;
+        this.nombre = nombre;
+        this.dni = dni;
+        this.fechaNac = fechaNac;
+        this.estado = estado;
+    }
 
     public int getIdAlumno() {
         return idAlumno;
@@ -43,6 +57,14 @@ public class Alumno {
         this.nombre = nombre;
     }
 
+    public int getDni() {
+        return dni;
+    }
+
+    public void setDni(int dni) {
+        this.dni = dni;
+    }
+
     public LocalDate getFechaNac() {
         return fechaNac;
     }
@@ -51,37 +73,20 @@ public class Alumno {
         this.fechaNac = fechaNac;
     }
 
-    public boolean isActivo() {
-        return activo;
+    public boolean isEstado() {
+        return estado;
     }
 
-    public void setActivo(boolean activo) {
-        this.activo = activo;
+    public void setEstado(boolean estado) {
+        this.estado = estado;
     }
 
     @Override
     public String toString() {
-        return "Alumno{" + '}';
-    }
-    
-
-    public Alumno(int idAlumno, String apellido, String nombre, LocalDate fechaNac, boolean activo) {
-        this.idAlumno = idAlumno;
-        this.apellido = apellido;
-        this.nombre = nombre;
-        this.fechaNac = fechaNac;
-        this.activo = activo;
-    }
-
-    public Alumno(String apellido, String nombre, LocalDate fechaNac) {
-        this.apellido = apellido;
-        this.nombre = nombre;
-        this.fechaNac = fechaNac;
-    }
-
-    public Alumno() {
+        return "Alumno{" + "idAlumno=" + idAlumno + ", apellido=" + apellido + ", nombre=" + nombre + ", dni=" + dni + ", fechaNac=" + fechaNac + '}';
     }
     
     
-        
+    
 }
+    

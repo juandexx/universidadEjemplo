@@ -12,10 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author juand
- */
+
 public class Conexion {
 
     private static final String URL = "jbdc:mysql://localhoost/";

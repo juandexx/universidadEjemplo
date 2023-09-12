@@ -5,11 +5,9 @@
  */
 package universidadejemplo.Entidades;
 
-/**
- *
- * @author juand
- */
+
 public class Inscripcion {
+    
     private int idInscripcion;
     private Alumno alumno;
     private Materia materia;
