@@ -17,9 +17,9 @@ import universidadejemplo.Entidades.Materia;
  */
 public class InscripcionData {
     private Connection con;
-    private MateriaData matData;
+    /*private MateriaData matData;
     private AlumnoData aluData;
-
+    
     public InscripcionData() {
     }
     public void giardarInscripcion (Inscripcion insc){}
@@ -29,6 +29,6 @@ public class InscripcionData {
     public List <Materia> obtenerMateriasNOCursadas (int id){}
     public void borrarInscripcionMateeriaAlumno(int idAlumno, int idMateria){}
     public void actualizarNota(int idAlumno, int idMateria, double nota){}
-    public List <Alumno> obtenerAlumnosXMateria(int idMateria){}
+    public List <Alumno> obtenerAlumnosXMateria(int idMateria){}*/
     
 }

@@ -3,20 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< Updated upstream
             <file>file:/C:/Users/juand/Documents/NetBeansProjects/universidadEjemplo/src/universidadejemplo/AccsesoADatos/AlumnoData.java</file>
             <file>file:/C:/Users/juand/Documents/NetBeansProjects/universidadEjemplo/src/universidadejemplo/AccsesoADatos/InscripcionData.java</file>
             <file>file:/C:/Users/juand/Documents/NetBeansProjects/universidadEjemplo/src/universidadejemplo/Entidades/Inscripcion.java</file>
             <file>file:/C:/Users/juand/Documents/NetBeansProjects/universidadEjemplo/src/universidadejemplo/Entidades/Materia.java</file>
             <file>file:/C:/Users/juand/Documents/NetBeansProjects/universidadEjemplo/src/universidadejemplo/AccsesoADatos/Conexion.java</file>
+            <file>file:/C:/Users/juand/Documents/NetBeansProjects/universidadEjemplo/src/UniversidadMain/Universidadulp.java</file>
             <file>file:/C:/Users/juand/Documents/NetBeansProjects/universidadEjemplo/src/universidadejemplo/Entidades/Alumno.java</file>
-=======
-            <file>file:/C:/Users/PC/Desktop/universidadEjemplo1/src/universidadejemplo/AccsesoADatos/Conexion.java</file>
-            <file>file:/C:/Users/PC/Desktop/universidadEjemplo1/src/universidadejemplo/Entidades/Inscripcion.java</file>
-            <file>file:/C:/Users/PC/Desktop/universidadEjemplo1/src/universidadejemplo/AccsesoADatos/AlumnoData.java</file>
-            <file>file:/C:/Users/PC/Desktop/universidadEjemplo1/src/universidadejemplo/Entidades/Alumno.java</file>
-            <file>file:/C:/Users/PC/Desktop/universidadEjemplo1/src/universidadejemplo/Entidades/Materia.java</file>
->>>>>>> Stashed changes
         </group>
     </open-files>
 </project-private>

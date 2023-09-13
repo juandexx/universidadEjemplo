@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 public class Conexion {
 
-    private static final String URL = "jbdc:mysql://localhoost/";
+    private static final String URL = "jbdc:mysql://localhost/";
     private static final String DB = "universidadulp";
     private static final String USUARIO = "root";
     private static String PASSWORD = "";
@@ -30,9 +30,9 @@ public class Conexion {
         if (connection == null) {
             try {
                 Class.forName("org.mariadb.jbdc.Driver");
-                // preparacion de la coneccion con la Base de Datos
+                //preparacion de la coneccion  con la Base de Datos
                 connection = DriverManager.getConnection(URL + DB + "?useLegacyDatetimeCoda=false&serverTimezone=UTC"
-                        + "&user=" + USUARIO + "&passowrd=" + PASSWORD);
+                        + "&user=" + USUARIO + "&password=" + PASSWORD);
 
             } catch (SQLException ex) {
                 JOptionPane.showMessageDialog(null, "error al conectarse a la BD " + ex.getMessage());
